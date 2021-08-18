@@ -20,7 +20,7 @@
         Welcome to osu!Overlay!
         </p>
         <p>
-        Hello this website is currently made to easily make a ban/pick phase for your osu! tournament streams.<br>
+        Hello! this website is currently made to easily make a ban/pick phase for your osu! tournament streams.<br>
         In the future i might add more functionalities, we will see what i come up with.
         </p>
       </div>
