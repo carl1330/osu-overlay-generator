@@ -1,0 +1,22 @@
+.beatmapbox
+{
+  background-color: gray;
+  height: 60px;
+  width: 430px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-top: 10px;
+  transition: 0.2s;
+  position: relative;
+}
+
+input.beatmapid
+{
+  width: 99%;
+  background-color: grey;
+  border-bottom: 1px solid #AFAFAF;
+  color: white;
+}

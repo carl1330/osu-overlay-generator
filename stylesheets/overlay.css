@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,300,400,500,700');
+div.beatmapbox
+{
+  background-color: gray;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  height: 100%;
+  border-radius: 5px;
+  font-family: Exo;
+  font-size: 20px;
+  color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-top: 10px;
+  transition: 0.2s;
+  position: relative;
+}
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li
+{
+  display: inline;
+}
+
+div.beatmapBanned
+{
+  width: 430px;
+  height: 65px;
+  z-index: 3;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 5px;
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+  text-align: center;
+  line-height: 65px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+div.beatmapPicked
+{
+  width: 430px;
+  height: 65px;
+  font-size: 25px;
+  z-index: 3;
+  background-color: rgba(70, 165, 255, 0.8);
+  border-radius: 5px;
+  position: absolute;
+  opacity: 0;
+  font-size: 30px;
+  transition: 0.2s;
+  text-align: center;
+  line-height: 65px;
+  font-weight: 700;
+}
+
+div.beatmapPicked2
+{
+  width: 430px;
+  height: 65px;
+  font-size: 25px;
+  z-index: 3;
+  background-color: rgba(232, 77, 127, 0.8);
+  border-radius: 5px;
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+  text-align: center;
+  line-height: 65px;
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
+
+div.osuPattern
+{
+  width: 430px;
+  height: 65px;
+  font-size: 25px;
+  z-index: 2;
+  border-radius: 5px;
+  position: absolute;
+  background: url("https://osu.ppy.sh/images/backgrounds/page-light.png");
+  background-position: center;
+  background-size: cover;
+  transition: 0.2s;
+  opacity: 0;
+  text-align: center;
+  line-height: 65px;
+}
+
+div.wrapper
+{
+  width: 430px;
+  height: 60px;
+}
+
+div.container
+{
+  width: 100%;
+  height: 550px;
+  font-weight: 700;
+  font-family: Exo;
+  text-shadow: 1px 1px 4px black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+div.container-controls
+{
+  font-family: Exo;
+  font-size 8px;
+  height: 500px;
+  font-size: 50px;
+}
+
+input.controls
+{
+  width: 50px;
+  height: 50px;
+
+}
+
+div.container-split
+{
+  vertical-align: top;
+  display:inline-block;
+  margin-right: 10px;
+}
+
+div.bluebg
+{
+  background-color: rgb(213, 241, 254);
+}
+
+div.container-mods
+{
+  width: 100%;
+  height: 250px;
+}
